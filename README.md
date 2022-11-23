@@ -17,6 +17,7 @@ My approach derives from 1980s experience on mainframe releases and scheduling, 
 1. while obviously a Jupyter Notebook is generally sequential, and a set is a step at a time, each step delivers a "steady state"
 2. hence, each step exports (to CSV) or dumps (to JSON) data
 3. while the prototype goes sequentially, a pipeline could resume from the previous "steady state"- you can [see this approach here](https://github.com/robertolofaro/ai-organizational-scalability-sample-databook)
+4. the concept is: in some cases, the execution of steps could start from successive steps (e.g. to augment or post-process data), and if resources are available could also be parellelized (as would have been on mainframe).
 
 I have not yet released any ML model online, as I am just a novice who started building models in 2020 during COVID lockdowns, resurrecting 1980s experience on Decision Support Systems using basically multivariate linear regression and decision trees within a Rubik-cube kind of Excel with formulas readable by humans, not positional.
 
